@@ -173,3 +173,7 @@ a{
 .slick-next{
     right: 0px;
 }
+
+.card-deck {
+    padding-top: 20px;
+}
