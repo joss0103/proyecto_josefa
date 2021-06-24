@@ -18,7 +18,7 @@ a{
 #icono{
     width: 100px;
     height: 100px;
-    padding-bottom: 20;
+    
 }
 
 #colornav{
@@ -219,6 +219,7 @@ a{
 }
 
 .colorbtn {
+    margin-top: 20px;
     background-color:#F58DA6 ;
     text-decoration-color: black;
     font-weight: bold;
@@ -258,4 +259,24 @@ a{
 
 .descrip  p  {
     text-align: center;
+}
+.registro {
+    background-color: #F58DA6;
+    font-size: 20px;
+    line-height: 38px;
+    opacity: .9;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+    color: black;
+}
+.btncolortrar {
+    background-color:#F58DA6 ;
+
+}
+.btnregistrar {
+    
+    margin-top: 25px;
+    margin-left:50%;
+    transform: translateX(-50%);
 }
