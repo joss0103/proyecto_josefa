@@ -48,8 +48,7 @@ a{
 }
 #best img{
     
-  
-  padding: 5px;
+    margin: auto;
    
 } 
 
@@ -279,4 +278,14 @@ a{
     margin-top: 25px;
     margin-left:50%;
     transform: translateX(-50%);
+}
+.servicios {
+    background-color: #F58DA6;
+    height: 400px;
+    width: 200px;
+}
+.best {
+    margin-top: 25px;
+    margin-right:50%;
+    transform: translateX(+15%);
 }
