@@ -289,3 +289,7 @@ a{
     margin-right:50%;
     transform: translateX(+15%);
 }
+.container-fluid img {
+    width: 400px;
+    height: 200px;
+}
