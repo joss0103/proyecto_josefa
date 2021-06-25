@@ -293,3 +293,13 @@ a{
     width: 400px;
     height: 200px;
 }
+.cardcolor {
+    background-color:#F58DA6 ;
+}
+.cardimpar {
+    position: relative;
+    display: flex;
+    margin-top: 10px;
+    width: 16rem
+    
+}
