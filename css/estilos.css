@@ -303,3 +303,8 @@ a{
     width: 16rem
     
 }
+.infoalbum .continfo {
+    width: 70%;
+    display: inline-block;
+    margin-left: -4px;
+}
