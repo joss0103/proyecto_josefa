@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DETALLE</title>
+    <link rel="shortcut icon" href="img/icono.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body>
+    
+    <!--menu de arriba más form de buscar-->      
+    <nav class="navbar navbar-expand-lg navbar-light" id="colornav">
+        <a class="navbar-brand" href="#">
+        <img src="img/icono.jpg" width="100" height="100" class="d-inline-block align-top" alt="icono">
+        </a>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+            <button class="btn my-2 my-sm-0" type="submit" id="buscar">Search</button>
+          </form>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-md-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Iniciar Sesion <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item" >
+                <a class="nav-link" href="#">Registrarse</a>
+              </li>
+              <li class="nav-item" > 
+                <a class="nav-link" href="#">Carrito</a>
+              </li>
+            
+            </ul>
+            
+          </div>
+    </nav>
+    <!--linea separadora-->  
+    <hr id="sepnav1">
+    
+    <!--navbar con artistas-->  
+    
+    <nav class="navbar navbar-expand-lg navbar-light menuu"  id="colornav2">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav navbar-center" id="centrar">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">NUEVO <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="merch" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              MD
+            </a>
+            <div class="dropdown-menu" aria-labelledby="merch">
+              <a class="dropdown-item" href="#">LIGHSTICK</a>
+              <a class="dropdown-item" href="#">CONCIERTOS</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="artistas" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              ARTISTAS
+            </a>
+            <div class="dropdown-menu" aria-labelledby="artistas">
+              <a class="dropdown-item" href="#">ENHYPEN</a>
+              <a class="dropdown-item" href="#">LOONA</a>
+              <a class="dropdown-item" href="#">VICTON</a>
+              <a class="dropdown-item" href="#">STAYC</a>
+              <a class="dropdown-item" href="#">WANNA ONE</a>
+              <a class="dropdown-item" href="#">TWICE</a>
+              <a class="dropdown-item" href="#">TXT</a>
+            </div>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">CD <span class="sr-only"></span></a>
+          </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="nosotros" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            SOBRE NOSOTROS
+          </a>
+          <div class="dropdown-menu" aria-labelledby="nosotros">
+            <a class="dropdown-item" href="#">INFORMACIÓN</a>
+            <a class="dropdown-item" href="#">PREGUNTAS FRECUENTES</a>
+            <a class="dropdown-item" href="#">¿CÓMO COMPRAR?</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    </nav>
+    <!--linea separadora-->  
+    <hr id="sepnav2">
+    
+ 
+    <!-- album-->
+    <div class="container album info">
+       <img src="img/twicemore.jpg" class="BigImage" alt="FREEZE">
+       
+    </div>
+     <!--CONTAINER DE INFORMACIÓN-->
+    
+    <div class="container info">
+        
+        <h2>TWICE MORE&MORE</h2>
+        
+        <h2 id="precio">22.500</h2>
+        <b>IMPUESTOS INCLUIDOS</b>
+        <p></p>
+        <p>
+            <span class="infoalbum h5">FECHA LANZAMIENTO:</span>
+            <span class="continfo h5 ">1 DE JUNIO 2020</span>
+        </p>
+        <p>
+            <span class="infoalbum h5">FORMAS DE PAGO:</span>
+            <span class="continfo h5">DEBITO, CRÉDITO</span>
+        </p>
+        <p>
+            <span class="infoalbum h5">REGALO PREVENTA:</span>
+            <span class="continfo h5">POSTER</span>
+        </p>
+        
+       
+         
+        <form>
+            <div class="form-group row">
+              <label for="inlineFormCustomSelectPref" class="col-sm-2 col-form-label h5 " id="version">VERSION: </label>
+                <div class="col-sm-10">
+                    <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                    <option selected disabled value="">ELEGIR</option>
+                    <option value="1">A</option>
+                    <option value="2">B</option>
+                    <option value="3">C</option>
+                    <option value="4">SET</option>
+                    
+
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="cantidad" class="col-sm-2 col-form-label h5 ">CANTIDAD: </label>
+                  <div class="col-sm-10">
+                    <input type="number" id="cantidad" name="cantidad" min="1" max="30">
+                  </div>
+              </div>
+           
+              <p>
+                
+              </p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <hr class="lineasep">
+          
+            <button type="submit" class="btn colorbtn my-1">COMPRAR AHORA</button>
+            <button type="submit" class="btn colorbtn my-1">AGREGAR A CARRITO</button>
+        </form>
+        
+        
+
+        <p></p>
+        <p></p>
+        
+    </div>
+
+    
+    
+    <div class="container">
+
+        <p class="h2 detallealbum "> DETALLE </p>
+        <!--linea separadora-->  
+        <hr id="sepnav4">
+
+       <div class="descrip">
+
+             <p>Si el disco está en preorden, hay un plazo de 15 días hábiles para que llegue a nuestro país</p>
+            <p>Cuando se encuentre en nuestras manos, habrá plazo de hasta <b>7 días hábiles para ser despachados a su dirección</b></p>
+            <p>------------------------------------------------------------------------------------------------------------------------------------------------------------- <p>
+            <p>TWICE viene a darnos su tan esperado COMEBACK con MORE&MORE</p>
+            <p><b>Contiene: </b></p>
+            <ul class="list-group">
+                <li  class="list-group-item">PHOTOBOOK: 88P</li>
+                <li  class="list-group-item">CD</li>
+                <li  class="list-group-item">MORE POSTCARD</li>
+                <li  class="list-group-item">COASTER CARD: 1/9 </li>
+                <li  class="list-group-item">PHOTOCARD: 5/100</li>
+                <li  class="list-group-item">THE MOST PHOTOCARD: SOLO PRIMERA EDICIÓN</li>
+                <li  class="list-group-item">POLAROID: SOLO EN ALGUNAS COPIAS DE LA PRIMERA EDICIÓN</li>
+                <li  class="list-group-item">BENEFICIO PREVENTA: PHOTOCARD SET (10UNIDADES)</li>
+                <li  class="list-group-item">POSTER: HASTA AGOTAR STOCK</li>
+
+
+
+            </ul>
+            <p></p>
+
+
+
+        </div>
+    </div>
+    
+    <div class="container">
+        <img src="img/twice9.jpg" class="img-fluid fotodetalle" alt="detalle WE PLAY">
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+</body>
+</html>
